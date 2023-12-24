@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Fonts  */
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(./assets/fonts/Raleway-Regular.ttf)
+}
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(./assets/fonts/Raleway-Medium.ttf)
+}
+@font-face {
+    font-family: "Raleway-bold";
+    src: url(./assets/fonts/Raleway-Bold.ttf)
+}
+@font-face {
+    font-family: "Raleway-semibold";
+    src: url(./assets/fonts/Raleway-SemiBold.ttf)
+}
+@font-face {
+    font-family: "Raleway-black";
+    src: url(./assets/fonts/Raleway-Black.ttf)
+}
+
+/* colour */
+:root{
+    --primary: #eebf00;
+    --secondary: #232b38;
+    --ternary: #6c6c6c;
+    --danger: #fe4545;
+    --pure: #fefefe;
+    --light: #f0f0f0;
+    --heaven: #ffffff;
+    --footer: #2d333f;
+}
+
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* media query  */
+
+@media (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
+
+
+
+header.topbar {
+    background: var(--secondary);
+    color: var(--pure);
+    font-family: "Raleway-semibold";
+    padding: 0.65rem 0;
+}
+header.topbar .auth > div a{
+    color: var(--pure);
+    text-decoration: none;
+}
+
+header.topbar .auth .divider{
+    padding: 0 1rem;
+}
+
+header.topbar .auth img{
+    margin-right: 0.35rem;
+}
+
+header.topbar .icons a {
+    margin-right: 0.8rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.item-center {
+    align-items: center;
+}
+
+nav .top{
+    padding: 0.6rem 0;
+}
+
+nav .top .contact img, nav .top .time img{
+    margin-right: 0.8rem;
+
+}
+
+nav .top .contact h5, nav .top .time h5{
+    font-family: "Raleway-black";
+    margin-bottom: 0.25rem;
+}
+
+nav .top .contact h6, nav .top .time h6{
+    font-family: "Raleway-medium";
+    letter-spacing: 0.055rem;
+}
