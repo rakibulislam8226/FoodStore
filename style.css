@@ -126,6 +126,10 @@ hr{
     -o-transition: all .3s ease;
 }
 
+.text-primary{
+    color: var(--primary);
+}
+
 .btn-primary{
     background: var(--primary);
     color: var(--heaven);
@@ -251,6 +255,12 @@ nav .navbar a:hover{
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
+    left:50%;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
 }
 /* Navbar end  */
 
@@ -468,3 +478,48 @@ section.about-meal p{
     margin-bottom:4rem;
 }
 /* About fresh meal end */
+
+
+/* Our services start */
+section.our-services{
+    background:var(--light);
+    position:relative;
+    z-index:0;
+}
+section.our-services .card-wrapper{
+    margin-right:-2rem;
+    margin-top:8rem;
+}
+section.our-services .service-card{
+    background:var(--heaven);
+    text-align: center;
+    padding:2rem;
+    padding-top:4rem;
+    margin-right:2rem;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+section.our-services .service-card .icon{
+    position: absolute;
+    top:-45px;
+    left:50%;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+} 
+section.our-services .service-card h2{
+    font-family: "Raleway-bold";
+    font-size: 1.3rem;
+    margin-bottom:1rem;
+}
+section.our-services .service-card p{
+    line-height: 1.6;
+    margin-bottom:1rem;
+}
+/* Our services end */
