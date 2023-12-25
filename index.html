@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- slick slider css  -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="style.css">
     <title>FoodStore</title>
 </head>
@@ -106,6 +108,144 @@
     </header>
     <!-- Hero end  -->
 
+    <!-- Top product start  -->
+    <section class="top-products">
+        <div class="container">
+            <h1 class="section-heading text-center">Top Products</h1>
+            <div class="slider">
+                <button class="slider-btn prev-btn"><img src="./assets/icons/pre.svg" alt=""></button>
+                <button class="slider-btn next-btn"><img src="./assets/icons/next.svg" alt=""></button>
+
+                <div class="food-slider">
+
+                    <!-- food card start  -->
+                    <!-- food 1 -->
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex item-center justify-center">
+                            <img src="./assets/images/plate-1.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Summer Sale</h2>
+                            <div class="star flex justify-center">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/star-grey.svg" alt="gray-start">
+                                <img src="./assets/icons/star-grey.svg" alt="gray-start">
+                            </div>
+                            <div class="price text-center">
+                                $1.25
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./assets/icons/cart-2.svg" alt="">
+                                    <span>Add To Cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- food 2 -->
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex item-center justify-center">
+                            <img src="./assets/images/plate-2.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Russian Salad</h2>
+                            <div class="star flex justify-center">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/star-grey.svg" alt="gray-start">
+                                <img src="./assets/icons/star-grey.svg" alt="gray-start">
+                            </div>
+                            <div class="price text-center">
+                                $1.25
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./assets/icons/cart-2.svg" alt="">
+                                    <span>Add To Cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- food 3 -->
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex item-center justify-center">
+                            <img src="./assets/images/plate-3.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Itialian Sale</h2>
+                            <div class="star flex justify-center">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/star-grey.svg" alt="gray-start">
+                                <img src="./assets/icons/star-grey.svg" alt="gray-start">
+                            </div>
+                            <div class="price text-center">
+                                $1.25
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./assets/icons/cart-2.svg" alt="">
+                                    <span>Add To Cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- food 4 -->
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex item-center justify-center">
+                            <img src="./assets/images/plate-3.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Cottage Pia-</h2>
+                            <div class="star flex justify-center">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/start-filled.svg" alt="filled-start">
+                                <img src="./assets/icons/star-grey.svg" alt="gray-start">
+                                <img src="./assets/icons/star-grey.svg" alt="gray-start">
+                            </div>
+                            <div class="price text-center">
+                                $1.25
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./assets/icons/cart-2.svg" alt="">
+                                    <span>Add To Cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- food card end  -->
+
+                </div>
+            </div>
+
+            <div class="text-center btn-wrapper">
+                <button class="btn btn-secondary">View All</button>
+            </div>
+        </div>
+    </section>
+    <!-- Top product end  -->
+
+
+
+    <!-- js -->
+    <!-- slick slider js  -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
