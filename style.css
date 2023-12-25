@@ -88,6 +88,10 @@ hr{
     display: flex;
 }
 
+.flex-1{
+    flex: 1;
+}
+
 .justify-between {
     justify-content: space-between;
 }
@@ -312,7 +316,8 @@ section.top-products{
 .section-heading{
     font-family: "Raleway-bold";
     position: relative;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+    /* text-align: center; */
 
 }
 
@@ -445,3 +450,21 @@ section.top-products .food-slider .food-card button:hover{
 }
 /* Top product start  */
 
+/* About fresh meal start */
+section.about-meal img{
+    width: 85%;    
+}
+
+section.about-meal h2{
+    font-family: "Raleway-bold";
+    color: var(--secondary);
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+
+section.about-meal p{
+    line-height: 1.7;
+    margin-bottom:4rem;
+}
+/* About fresh meal end */
