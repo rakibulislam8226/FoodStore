@@ -1,1 +1,5 @@
-![alt text](./foodstore-home.png)
+![alt text](./Screenshort/home.png)
+![alt text](./Screenshort/top-products.png)
+![alt text](./Screenshort/fresh-meal.png)
+![alt text](./Screenshort/services.png)
+![alt text](./Screenshort/blog.png)
