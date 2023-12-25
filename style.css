@@ -130,6 +130,10 @@ hr{
     color: var(--primary);
 }
 
+.text-pure{
+    color:var(--pure);
+}
+
 .btn-primary{
     background: var(--primary);
     color: var(--heaven);
@@ -523,3 +527,53 @@ section.our-services .service-card p{
     margin-bottom:1rem;
 }
 /* Our services end */
+
+
+/* Big deal start  */
+
+section.big-deal{
+    background: linear-gradient(
+    rgba(35,43,56,0.9),
+    rgba(35,43,56,0.9)
+    ),url(./assets/images/food-table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section.big-deal .timer{
+    display: flex;
+    justify-content: center;
+    margin-right: -2rem;
+    margin-bottom: 2rem;
+}
+
+section.big-deal .timer > div{
+    margin-right: 2rem;
+    background: var(--primary);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+section.big-deal .timer div span:first-child{
+    font-family: "Raleway-semibold";
+    font-size: 2.5rem;
+    color: var(--heaven);
+    margin-bottom: 0.5rem;
+}
+
+section.big-deal .timer div span:last-child{
+    font-family: "Raleway-medium";
+    color: var(--heaven);
+}
+/* Big deal end  */
